@@ -8,3 +8,8 @@ Makefile text eol=lf
 
 # PowerShell stays CRLF on Windows checkout.
 *.ps1 text eol=crlf
+
+# OpenOMF is a vendored third-party dependency (MIT). Exclude it from GitHub's
+# language stats and collapse it in diffs by default — the language bar should
+# reflect the 3DO port (C + shell), not OpenOMF's whole engine/CMake/GLSL/tests.
+openomf-master/** linguist-vendored
