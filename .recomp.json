@@ -1,7 +1,7 @@
 {
   "$schema": "https://recomp.fyi/schema/v1.json",
   "game": "One Must Fall: 2097",
-  "system": "PC",
+  "system": "PC (DOS)",
   "type": "port",
   "status": "in-progress",
   "targets": [
